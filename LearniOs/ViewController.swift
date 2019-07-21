@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     //Declaring all the variable
     @IBOutlet weak var myToolBar: UIToolbar!
     var counter = 0.0
+    //Timer is function which will update immediatly whever you want to update something
     var timer = Timer()
+    //Initilaisation
     var isPlaying = false
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var startButton: UIBarButtonItem!
